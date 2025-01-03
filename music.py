@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import filedialog
-from pygame import mixer 
+from pygame import mixer  
 root = Tk()
 root.title('Mp3 player') 
 mixer.init()
