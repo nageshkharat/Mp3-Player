@@ -3,7 +3,7 @@ from tkinter import filedialog
 from pygame import mixer  
 root = Tk()
 root.title('Mp3 player')    
-mixer.init()    
+mixer.init()     
 songs_list=Listbox(root,bg="violet",fg="dark blue",font='arial 15',height=12, width=47,selectmode=SINGLE,selectbackground='brown',selectforeground='white')
 songs_list.grid(columnspan=6)
 
